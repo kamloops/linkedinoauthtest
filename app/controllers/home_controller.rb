@@ -8,8 +8,8 @@ class HomeController < ApplicationController
   API_SECRET = 'lo1LEkc9AF6kmkLj'
   # API_KEY = 'lk8h5a5ql29t'
   # API_SECRET = 'j34PFSLbN9YjJaRg'
-  # REDIRECT_URI = 'http://0.0.0.0:3000/accept'
-  REDIRECT_URI = 'http://www.google.com'
+  REDIRECT_URI = 'http://0.0.0.0:3000/accept'
+  # REDIRECT_URI = 'http://www.google.com'
   
   def client
     OAuth2::Client.new(
